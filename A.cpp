@@ -1,9 +1,9 @@
 #include <iostream>
 class A {
-    private:
-    	int A1;
-    	float A2;
-    public:
+	private:
+		int A1;
+		float A2;
+	public:
 		// Get e Set A1
 		int getA1(){return A1;}
 		void setA1(int novoValor){
@@ -22,5 +22,9 @@ class A {
 
 		void MA2(){
 			std::cout << "MA2" << std::endl;
+		}
+		
+		void MA3(){
+			std::cout << "Alteração a classe A partir do clone" << std::endl;
 		}
 };
