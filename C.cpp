@@ -23,4 +23,8 @@ class A {
 		void MC2(){
 			std::cout << "MC2" << std::endl;
 		}
+		
+		void MC3(){
+			std::cout << "MC3" << std::endl;
+		}
 };
