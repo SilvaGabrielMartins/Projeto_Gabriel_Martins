@@ -10,4 +10,7 @@ class D {
 		void MD2(){
 			std::cout << "Valor D2:" << D2 << std::endl;
 		}
+		void MD3(){
+			std::cout << "MD3" << std::endl;
+		}
 };
